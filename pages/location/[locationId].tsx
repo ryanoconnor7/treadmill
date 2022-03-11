@@ -103,7 +103,7 @@ const LocationStatus = (props: { location: LocationResponse }) => {
                       // Text color
                       fill: "#f88",
                       // Text size
-                      fontSize: "24px",
+                      fontSize: "22px",
                       fontWeight: "700",
                     },
                   }}
