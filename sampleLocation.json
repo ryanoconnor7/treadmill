@@ -1,0 +1,22 @@
+{
+  "demo": {
+    "name": "Demo Apartment",
+    "cameras": [
+      {
+        "description": "East Wall",
+        "units": [
+          {
+            "type": "Treadmill",
+            "bbox": "(0,0)-(2,2)"
+          }
+        ],
+        "updates": [
+          {
+            "timestamp": 0,
+            "occupancy": [true]
+          }
+        ]
+      }
+    ]
+  }
+}

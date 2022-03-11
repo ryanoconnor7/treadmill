@@ -9,12 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@firebase/database": "^0.12.5",
+    "@types/lodash": "^4.14.179",
+    "@types/moment": "^2.13.0",
+    "firebase": "^9.6.8",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
     "next": "12.1.0",
-    "react": "17.0.2",
+    "react": "^17.0.2",
+    "react-circular-progressbar": "^2.0.4",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@types/react": "^17.0.40",
     "eslint": "8.10.0",
-    "eslint-config-next": "12.1.0"
+    "eslint-config-next": "12.1.0",
+    "typescript": "^4.6.2"
   }
 }
