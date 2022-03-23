@@ -15,6 +15,6 @@ export interface Unit {
 }
 
 export interface Update {
-  occupancy: boolean[];
+  state: string;
   timestamp: number;
 }

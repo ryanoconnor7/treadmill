@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -61,9 +62,9 @@ export default function Home() {
           style={{ marginTop: 48, borderRadius: 100 }}
           className={styles.card}
         >
-          <a style={{ color: "#0070f3" }}>
+          <Link style={{ color: "#0070f3" }} href="/location/demo">
             <h2 style={{ marginBottom: 0 }}>See a Demo &rarr;</h2>
-          </a>
+          </Link>
         </div>
       </main>
     </div>

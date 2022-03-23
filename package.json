@@ -6,16 +6,19 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "next build && next export && git add out/ && git commit -m \"Deploy gh-pages\" && git subtree push --prefix out origin gh-pages"
   },
   "dependencies": {
     "@firebase/database": "^0.12.5",
     "@types/lodash": "^4.14.179",
     "@types/moment": "^2.13.0",
     "firebase": "^9.6.8",
+    "gh-pages": "^3.2.3",
     "lodash": "^4.17.21",
     "moment": "^2.29.1",
     "next": "12.1.0",
+    "next-compose-plugins": "^2.2.1",
     "react": "^17.0.2",
     "react-circular-progressbar": "^2.0.4",
     "react-dom": "17.0.2"

@@ -13,7 +13,7 @@
         "updates": [
           {
             "timestamp": 0,
-            "occupancy": [true]
+            "state": "1234"
           }
         ]
       }
